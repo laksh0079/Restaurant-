@@ -1,0 +1,226 @@
+.top-foods-heading {
+	font-size: 32px;
+	text-align: center;
+	font-family: Cinzel;
+	color: #EFD962;
+	padding: 2rem 0;
+}
+
+.top-foods {
+	background-color: #222222;
+	padding: 2rem 2rem;
+	margin:0;
+}
+
+.food-cards {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 5px;
+	row-gap: 25px;
+	margin: 0 auto;
+	justify-content: space-evenly;
+}
+
+.food-card {
+	width: 31%;
+	height: 500px;
+	background-color: #FDF5E6;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+
+/*food name & description styles*/
+.food-description {
+	margin: 0 5%;
+	height: 300px;
+	align-content: space-between;
+}
+
+.food-name {
+	font-size: 20px;
+	height: 100%;
+	display: flex;
+	margin: 0;
+	align-items: center;
+}
+
+.food-name-container {
+	height: calc(20% - 15px);
+	margin: 15px 0;
+}
+
+.food-name,
+.food-info,
+.food-price {
+	font-family: Lora;
+	color: #4A2C2A;
+}
+
+.food-info {
+	height: 155px;
+}
+
+.food-info,
+.food-price {
+	font-family: Poppins;
+}
+
+.food-price {
+	display: inline-block;
+}
+
+.food-price-div {
+	margin-right: 5%;
+}
+
+/*food image & div styles*/
+.food-image {
+	height: 40%;
+}
+
+.food-card .food-image img {
+	width: 90%;
+	margin: 0 5%;
+	height: calc(100% - 10px);
+	object-fit: cover;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+/*adjusting cart image into button*/
+.order-button-container {
+	width: 60%;
+	display: inline-block;
+	position: relative;
+	margin: auto;
+}
+
+.cart-image {
+	position: absolute;
+	top: 9px;
+	left: 7px;
+	width: 30px;
+
+}
+
+.order-button {
+	padding-left: 22%;
+	height: 50px;
+	width: 100%;
+	border: none;
+	background-color: #1D1128;
+	border-radius: 7px;
+	color: white;
+	font-weight: bold;
+	font-family: Poppins;
+}
+
+.food-price-button-div {
+	display: flex;
+	margin: 10px 0;
+	align-items: center;
+	height: calc(20% - 10px);
+}
+
+@media (max-width: 480px) {
+	.food-card {
+		width: 48%;
+	}
+
+	.food-name {
+		font-size: 0.8em;
+	}
+
+	.food-info,
+	.food-price {
+		font-size: 0.7em;
+	}
+
+	.cart-image {
+		width: 20px;
+		top: 5px;
+		left: 3px;
+	}
+
+	.order-button {
+		font-size: 8px;
+		height: 30px;
+		padding-left: 25%;
+	}
+
+	.cart-image {
+		width: 20px;
+		top: 7px;
+		left: 7px;
+	}
+	
+	.top-foods-heading {
+		font-size: 20px;
+	}
+
+	.top-foods {
+		padding: 2rem 1rem;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+	.food-card {
+		width: 40%;
+	}
+
+	.food-name {
+		font-size: 1.1em;
+	}
+
+	.food-info,
+	.food-price {
+		font-size: 0.8em;
+	}
+
+	.cart-image {
+		width: 25px;
+		top: 5px;
+		left: 3px;
+	}
+
+	.order-button {
+		font-size: 8px;
+		height: 30px;
+		padding-left: 25%;
+	}
+
+	.top-foods-heading {
+		font-size: 2em;
+	}
+
+	.top-foods {
+		padding: 2rem 1rem;
+	}
+}
+
+@media (min-width: 769px) and (max-width:1023px) {
+	.food-card {
+		width: 31%;
+	}
+
+	.food-name {
+		font-size: 1.1em;
+	}
+
+	.food-info,
+	.food-price {
+		font-size: 0.8em;
+	}
+}
+
+@media (min-width: 1024px) {
+	.food-name {
+		font-size: 1.3em;
+	}
+
+	.food-info,
+	.food-price {
+		font-size: 1.2em;
+	}
+}

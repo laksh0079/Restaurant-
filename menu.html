@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="nav.css" type="text/css"
+		media="all" />
+	<link rel="stylesheet" href="menu.css" type="text/css"
+		media="all" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com"
+		crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+	<title></title>
+</head>
+
+<body class="indian-menu">
+	<div class="nav">
+		<div class="left">
+			<span class="restaurant-name">Delicious Bites</span>
+		</div>
+		<div class="right">
+			<a href="/home/index.html">Home</a>
+			<a href="#">Menu</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+		</div>
+	</div>
+	
+	<div class="sidebar">
+		<a href="#" class="indian">Indian</a>
+		<a href="#" class="italian">Italian</a>
+		<a href="#" class="greek">Greek</a>
+		<a href="#" class="spanish">Spanish</a>
+		<a href="#" class="french">French</a>
+		<a href="#" class="japanese">Japanese</a>
+		<a href="#" class="mexican">Mexican</a>
+		<a href="#" class="turkish">Turkish</a>
+		<a href="#" class="chinese">Chinese</a>
+	</div>
+	<header>
+		<h1 class="menu-heading">India Foods Menu</h1>
+		<div class="cart-div">
+			<img src="/svg/cart.png" alt="" class="cart" />
+			<span class="number" id="number">0</span>
+		</div>
+		
+	</header>
+	
+	<section class="menu">
+		<div class="card">
+			<div class="food-image">
+				<img src="/food/tandoori-chicken.png" alt="" />
+			</div>
+			<div class="food-description">
+				<div class="food-name-div">
+					<h3 class="name">Tandoori Chicken</h3>
+				</div>
+				<div class="description-div">
+					<p class="description">A classic Indian dish,
+						where succulent chicken pieces are marinated
+						overnight in spiced yogurt and slow-roasted in
+						a traditional tandoor oven. The result is a
+						smoky, charred exterior with a juicy, tender
+						inside. Served with onions, lemon wedges, and
+						a minty green chutney.</p>
+				</div>
+				<div class="price-div">
+					<p class="price">$12.99</p>
+				</div>
+				<div class="order-and-rating">
+					<div class="rating-div">
+						<img src="/images/star.png" alt="" /><span
+							class="rating">4.6</span>
+					</div>
+					<div class="order-div">
+						<button onclick="updateCartNumber();"
+							id="button">Order!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="main.js"></script>
+</body>
+
+</html>

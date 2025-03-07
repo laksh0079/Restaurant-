@@ -1,0 +1,131 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu-heading {
+	text-align: left;
+	font-family: "Cinzel";
+	color: #E7ECEF;
+	display: inline-block;
+}
+
+.cart{
+	width: 80px;
+}
+
+.cart-div {
+	position: relative;
+	margin-right: 1.8rem;
+	z-index: 0;
+}
+
+.number {
+	position: absolute;
+	display: grid;
+	place-items: center;
+	background-color: red;
+	color: white;
+	width: 30px;
+	height: 30px;
+	border-radius:50%;
+	top: 6px;
+	right: 2px;
+}
+
+.menu{
+	
+}
+
+.card{
+	background-color: #55828B;
+	display: flex;
+	flex-direction: row;
+	width: 98%;
+	column-gap: 20px;
+}
+
+.food-image {
+	width: calc(30% + 10px);
+}
+
+.food-image img {
+	width: 100%;
+	object-fit: cover;
+	margin: 10px;
+}
+
+.food-description {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 1rem;
+}
+
+.name {
+	font-family: Ubuntu;
+	color: #E7ECEF;
+	margin: 0.9rem 0;
+}
+
+.description {
+	font-size: 0.8em;
+	font-family: Poppins;
+	margin-bottom: 0;
+	color: #E7ECEF;
+}
+
+.price {
+	font-family: Poppins;
+	font-size: 0.8em;
+	color: #E7ECEF;
+}
+
+.rating-div img {
+	width: 24px;
+	background-color: transparent;
+	display: inline-block;
+}
+
+.order-and-rating {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 2rem;
+	column-gap: 2rem;
+}
+
+.rating-div{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 50%;
+}
+
+
+.order-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rating{
+	color: #1D201F;
+	display: inline-block;
+	font-family: Poppins;
+	font-size: 0.8em;
+	margin-right: 5%;
+	margin-top: 3px;
+}
+
+button {
+	padding: 4px 18px;
+	border: none;
+	border-radius: 5px;
+	font-family: Poppins;
+	color: #E7ECEF;
+	font-size: 1.1em;
+	font-weight: 500;
+	background-color: #1D201F;
+	box-shadow: 0 0 10px #E7ECEF;
+}

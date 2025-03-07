@@ -1,0 +1,80 @@
+.footer{
+	display: flex;
+	flex-direction: column;
+	background-color: #0D0E12;
+	color: #D5B6B4;
+	margin: 0;
+	text-align: center;
+}
+.icons{
+	display: flex;
+	column-gap: 1rem;
+	justify-content: center;
+}
+.follow-container img{
+	background-color: white;
+	border-radius: 55%;
+	border: 3px solid #656CBA;
+	width: 120px;
+}
+h5{
+	margin:0;
+	font-weight: bold;
+	padding: 2rem;
+	font-size: 2em;
+	font-family: Cinzel;
+	text-align: center;
+}
+.address,
+.email,
+.phone,
+.timing{
+	font-size: 1.3em;
+	font-family: "PlayFair display";
+	color: #BBBCC4;
+	line-height: 2rem;
+	letter-spacing: 4px;
+}
+.address-heading,
+.timing-heading{
+	font-family: "Titillium Web";
+	color: #BBBDB7;
+	margin: 1.5rem 0;
+}
+.timing-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.copyright {
+	font-family: "PlayFair Display";
+	letter-spacing: 3px;
+	font-size: 18px;
+}
+ 
+@media (max-width: 480px){
+	h5{
+		font-size: 1em;
+	}
+	.follow-container img {
+		width: 50px;
+		border-width: 2px;
+	}
+	.address,
+	.email,
+	.timing,
+	.phone{
+		font-size: 0.7em;
+	}
+	.address-heading,
+	.timing-heading{
+		font-size: 1em;
+	}
+	.copyright{
+		font-size: 0.9em;
+	}
+}
+hr {
+	margin: 0 auto;
+}
